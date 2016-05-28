@@ -1,0 +1,3 @@
+git log --pretty=online
+ git log --since=2.days
+  git log --pretty=format:"%h - %an, %ar : %s"
