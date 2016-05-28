@@ -1,4 +1,4 @@
-git log --pretty=online
+git log --pretty=oneline
 git log --since=2.days
 git log --pretty=format:"%h - %an, %ar : %s"
 
