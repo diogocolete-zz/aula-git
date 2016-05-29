@@ -4,3 +4,6 @@ git log --pretty=format:"%h - %an, %ar : %s"
 
 git rebase nome-do-branch # organiza de forma linear os comits no branch atual
 git merge nome-do-branch # gera um novo commit unindo o branch atual ao branch alvo
+
+# remover um branch
+git branch -D nome-do-branch
